@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>PLayer</title>
+	<link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+	<audio src="https://muztrack.net/uploads/music/2020/06/MINECRAFT_BOY_-_YA_lyublyu_maynkraft.mp3" hidden></audio>
+
+	<div class="container">
+		<div class="playlist">
+			<h2 style="margin-bottom: 44px">Ваш плейлист дня</h2>
+			<div class="playlist-player"></div>
+		</div>
+	</div>
+
+	<div class="player">
+		<div class="container">
+
+			<div class="player-data">
+				<div class="player-data__image"><img width="55px" height="55px" src="https://5zcxcicge92s6e8s3kyv0auo-wpengine.netdna-ssl.com/wp-content/uploads/2020/09/print-wall-32.jpg"></div>
+
+				<div class="player-data__author-info">
+					<div class="player-data__title">something</div>
+					<div class="player-data__author">someone</div>
+				</div>
+			</div>
+
+			<div class="player-action">
+				<div class="player-button player-action__play-pause"><img width="45px" height="45px" src="https://cdn-icons-png.flaticon.com/512/109/109197.png"></div>
+				<div class="player-action__current-duration">0:00</div>
+				<div class="player-action__line">
+					<div class="player-action__current-line"></div>
+				</div>
+				<div class="player-action__duration">0:00</div>
+			</div>
+
+			<div class="player-volume">
+				<input type="range" max="9">
+			</div>
+
+		</div>
+	</div>
+
+	<script src="main.js"></script>
+</body>
+</html>
